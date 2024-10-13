@@ -1,7 +1,10 @@
+import ServiceProgress from "./Features_Section/ServiceProgress";
+
 const Features = () => {
     return (
-        <div>
-            <h1>Features</h1>            
+        <div className="container mx-auto">
+            <ServiceProgress />
+            
         </div>
     );
 };
