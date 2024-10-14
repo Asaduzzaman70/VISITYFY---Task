@@ -1,4 +1,4 @@
-![Logo](../visityfy/src/assets/logo.png)
+![Logo](https://i.ibb.co.com/YTMvnWv/logo.png)
 
 # VISITYFY
 
