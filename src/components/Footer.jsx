@@ -11,7 +11,7 @@ import stripe from "../assets/pament_gateway/stripe.png";
 import visa from "../assets/pament_gateway/visa.png";
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram.png";
-import linkedIn from "../assets/linkedIn.png";
+import linkedIn from "../assets/linkedin.png";
 import award_1 from "../assets/award_1.png";
 import award_2 from "../assets/award_2.png";
 import award_3 from "../assets/award_3.png";
