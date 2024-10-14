@@ -46,7 +46,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Menu Items */}
-                <div className={`space-y-2 md:space-y-0 md:space-x-2 flex flex-col md:flex-row md:items-center absolute md:static top-[70px] left-0 w-full md:w-auto bg-dark-mine_shaft md:bg-transparent p-5 md:p-0 transition-all duration-700 ease-in-out transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:transform-none ${isScrolled ? '' : 'bg-opacity-50'}`}>
+                <div className={`space-y-2 md:space-y-0 md:space-x-2 flex flex-col md:flex-row md:items-center absolute md:static top-[50px] left-0 w-full md:w-auto bg-dark-mine_shaft md:bg-transparent p-5 md:p-0 transition-all duration-700 ease-in-out transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:transform-none ${isScrolled ? '' : 'bg-opacity-50'}`}>
                     {/* Button 1 */}
                     <button className="bg-light-white text-dark-black py-1 px-3 md:py-2 md:px-4 rounded-md border-2 border-light-white uppercase text-xs md:text-sm lg:text-base tracking-wider transition-all duration-200 hover:bg-transparent hover:text-light-white">
                         Explore Services

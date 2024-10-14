@@ -18,7 +18,7 @@ import award_3 from "../assets/award_3.png";
 
 const Footer = () => {
     return (
-        <div className="bg-dark-mine_shaft relative" data-aos="fade-up">
+        <div className="bg-dark-mine_shaft relative" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="400">
             <div className="container mx-auto pt-12 pb-24 px-4 md:px-5 lg:px-16">
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 text-light-white border-b-[1px] border-gray-500 pb-6">
                     <div className="md:row-span-2 md:col-span-2 ">
