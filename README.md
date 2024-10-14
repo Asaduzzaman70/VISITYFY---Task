@@ -1,9 +1,15 @@
-# React + Vite
+![Logo](../visityfy/src/assets/logo.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
+# VISITYFY
 
 ## Live Links:-
--- [Visityfy](https://visityfy.netlify.app/)
--- [Visityfy](https://visityfy.vercel.app/)
+- ### [Visityfy-1](https://visityfy.netlify.app/)
+- ### [Visityfy-2](https://visityfy.vercel.app/)
+
+## Install This Project
+
+```bash
+git clone https://github.com/Asaduzzaman70/VISITYFY---Task.git
+cd VISITYFY---Task
+npm i
+```
