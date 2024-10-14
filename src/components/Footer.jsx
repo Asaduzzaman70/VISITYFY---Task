@@ -18,7 +18,7 @@ import award_3 from "../assets/award_3.png";
 
 const Footer = () => {
     return (
-        <div className="bg-dark-mine_shaft">
+        <div className="bg-dark-mine_shaft relative" data-aos="fade-up">
             <div className="container mx-auto pt-12 pb-24 px-4 md:px-5 lg:px-16">
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 text-light-white border-b-[1px] border-gray-500 pb-6">
                     <div className="md:row-span-2 md:col-span-2 ">
@@ -90,9 +90,9 @@ const Footer = () => {
                     <p className="text-light-white md:w-1/2 text-center md:text-left">&copy; 2024 Visityfy. All rights reserved.</p>
                     <div className="flex flex-row flex-wrap items-center justify-around gap-4 w-full md:w-auto md:gap-10">
                         <div className="flex items-center gap-3">
-                            <img src={linkedIn} alt="" className="w-7 lg:w-9" />
-                            <img src={instagram} alt="" className="w-7 lg:w-9" />
-                            <img src={facebook} alt="" className="w-7 lg:w-9" />
+                            <img src={linkedIn} alt="" className="w-7 lg:w-9 cursor-pointer" />
+                            <img src={instagram} alt="" className="w-7 lg:w-9 cursor-pointer" />
+                            <img src={facebook} alt="" className="w-7 lg:w-9 cursor-pointer" />
                         </div>
                         <div className="flex items-center gap-3 lg:gap-6">
                             <img src={award_1} alt="" className="w-7 lg:w-9" />

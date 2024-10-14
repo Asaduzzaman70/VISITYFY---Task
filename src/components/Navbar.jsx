@@ -31,7 +31,7 @@ const Navbar = () => {
 
     return (
         <div className={`fixed w-full z-10 py-5 transition-all duration-700 ease-in-out shadow-2xl bg-dark-mine_shaft ${isScrolled ? '' : 'bg-opacity-50'}`}>
-            <div className="container mx-auto flex items-center justify-between px-5">
+            <div className="container mx-auto flex items-center justify-between px-5" data-aos="fade-down">
                 {/* Logo Section */}
                 <div className="flex items-center">
                     <img className="w-6 md:w-8 lg:w-10" src={logo} alt="Logo" />

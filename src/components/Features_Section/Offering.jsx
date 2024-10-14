@@ -3,7 +3,7 @@ import chair from "../../assets/chair.jpg";
 
 const Offering = () => {
     return (
-        <div className="flex flex-col-reverse md:flex-row bg-light-white rounded-xl p-5 md:px-10 md:py-9 gap-9 md:gap-3 mb-10">
+        <div data-aos="fade-up" className="flex flex-col-reverse md:flex-row bg-light-white rounded-xl p-5 md:px-10 md:py-9 gap-9 md:gap-3 mb-10">
             <div className="flex-1 space-y-14">
                 <h1 className="text-4xl font-bold">Offering</h1>
                 <p className="text-base font-medium text-gray-700 capitalize font-playfair">

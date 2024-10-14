@@ -29,7 +29,7 @@ const Map = () => {
     }, []);
 
     return (
-        <div className='my-7 md:my-14 lg:my-24'>
+        <div className='my-7 md:my-14 lg:my-24' data-aos="fade-up">
             <div>
                 <h1 className="text-4xl font-bold">Found Distend</h1>
                 <p className="text-base text-gray-700 my-5">

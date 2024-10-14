@@ -23,10 +23,10 @@ const Faq = () => {
     const renderFaqs = (faqs) => (
         faqs.map(({ id, question, answer }) => (
             <div key={id} className="mb-4 w-full">
-                <div className="bg-light-white flex items-center justify-between cursor-pointer p-4 rounded-xl" onClick={() => handleToggle(id)}>
+                <button className="bg-light-white flex items-center justify-between cursor-pointer p-4 rounded-xl w-full" onClick={() => handleToggle(id)}>
                     <h1 className="text-xs lg:text-lg font-medium">{question}</h1>
                     <FaAngleDown className={`transform transition-transform duration-300 ${openFaq === id ? "rotate-180" : ""}`} />
-                </div>
+                </button>
                 <div className={`overflow-hidden transition-all duration-200 ease-in-out ${openFaq === id ? "max-h-screen px-3" : "max-h-0"}`}>
                     <div className="bg-light-mercury p-5 rounded-b-xl">
                         <p className="text-gray-700 text-center text-xs lg:text-base">{answer}</p>
@@ -37,7 +37,7 @@ const Faq = () => {
     );
 
     return (
-        <div>
+        <div data-aos="fade-up">
             <h1 className="text-4xl font-bold text-center">FAQ</h1>
             <p className="text-base text-gray-700 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, sit!</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-6 my-10">
